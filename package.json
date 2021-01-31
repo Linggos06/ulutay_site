@@ -1,0 +1,31 @@
+{
+  "name": "ulutay-site",
+  "version": "1.0.0",
+  "description": "Ulutay Site",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Linggos06/ulutay_site.git"
+  },
+  "keywords": [
+    "ulutay",
+    "lojistik"
+  ],
+  "author": "Jull Sen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Linggos06/ulutay_site/issues"
+  },
+  "homepage": "https://github.com/Linggos06/ulutay_site#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
