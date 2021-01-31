@@ -1,0 +1,282 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Libre Baskerville', 'Arial', serif;
+    
+}
+
+
+.jumbotron {
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(./images/avtotransinfo-birzha-gruzoperevozok.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-color:#222831;
+    min-height: 100vh;
+    width: 100%;
+}
+
+
+
+.navbar {
+    background-color: transparent;  
+} 
+
+
+.navbar-brand { 
+    margin-right: 2rem;
+}
+
+.navbar_img {
+    cursor: pointer;
+    
+}
+
+.navbar-toggler i::before {
+    color: #fff;
+}
+
+
+.nav-link {
+    font-weight: 400;
+    color: #ffffff!important;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: -1px;
+}
+
+
+
+/* section main  */
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+
+.intro {
+    display: flex;
+    position: relative;
+    bottom: 10%;
+    flex-direction: column;
+    padding: 7% 2% 2% 2%;
+}
+
+.intro h1, h4 {
+    color: #ffffff;
+    font-weight: 700;
+    
+}
+
+.intro h1 {
+    font-size: 4rem;
+}
+
+.contacts {
+    margin-top: 3%;
+    width: 150px;
+}
+
+
+
+@media (max-width:1095px) {
+    .nav-link {
+        font-size: .8rem;
+    }
+}
+
+@media (max-width:991px) {
+    .nav-link:hover {
+        border: none;
+    }
+}
+
+
+@media (max-width: 640px) {
+
+    .intro h4 {
+        font-size: 1.5rem;
+    }
+    .intro h1 {
+        font-size: 2rem;
+    }
+}
+
+
+/* contacts  */
+
+.background_img {
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(./images/nick-fewings-br9D5K3UTRQ-unsplash.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-color:#222831;
+    min-height: 100vh;
+    width: 100%;
+}
+
+
+.content .contacts_header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.content .contacts_header h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+.contact-info { 
+    width: 90%;
+}
+
+.contact-info .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    
+}
+
+.contact-info .map_link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-info .map_link_icon {
+    text-decoration: none;
+    color: #212529;
+}
+
+.contact-info .box .icon {
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.contact-info .box .text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 300;
+    
+}
+
+.contact-info .box .text h3 {
+    font-weight: 500;
+    color: #00bcd4;
+}
+
+
+.contact_form {
+    margin: 0 auto;
+    padding: 25px;
+    background: #fff;
+    
+}
+
+.contact_form h2 {
+    font-weight: 600;
+    font-size: 30px;
+    color: #333;
+    padding-bottom: 10px;
+}
+
+.contact_form .input_box {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+.contact_form .input_box input,
+.contact_form .input_box textarea
+ {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contact_form .input_box label {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.contact_form .input_box input:focus ~ label,
+.contact_form .input_box input:valid ~ label,
+.contact_form .input_box textarea:focus ~ label,
+.contact_form .input_box textarea:valid ~ label {
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.contact_form .input_box button {
+    padding: 10px;
+    font-size: 18px;
+}
+
+@media (min-width:280px) {
+    
+    #contacts {
+        padding: 1% 4%;
+    }
+    .contact_form {
+        width: 100%;
+    }
+} 
+
+
+
+
+
+
+
+
+
+.navbar_main {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.nav-link_main {
+    color: #101D52!important;
+
+}
+
+.nav-link_main:hover {
+    border-bottom-color: #101D52;
+}
