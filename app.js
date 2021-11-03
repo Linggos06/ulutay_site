@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html');
 });
 
-app.get('/ulutay_site/contacts', (req, res) => {
+app.get('/ulutay_site/pages/contacts', (req, res) => {
     res.sendFile(__dirname + '/pages/contacts.html');
 }); 
 
