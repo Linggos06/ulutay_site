@@ -1,3 +1,3 @@
 # ulutay_site
 
-![](missha_clone_screenshot.PNG)
+![](chrome_spqE2dCiy4.png)
