@@ -2,9 +2,9 @@
   "name": "ulutay-site",
   "version": "1.0.0",
   "description": "Ulutay Site",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "watch": "nodemon ./app.js"
+    "start": "node app.js"
   },
   "keywords": [
     "ulutay",
